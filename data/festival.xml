@@ -1,0 +1,1362 @@
+<festivalData>
+    <festival id="FEST-2026">
+        <identity>
+            <name>CodeConnect 2026 - IT networking festival</name>
+            <edition>0. ročník</edition>
+            <location>
+                <city>Praha</city>
+                <district>Troja</district>
+                <venueName>Loděnice Troja</venueName>
+                <country>CZ</country>
+            </location>
+        </identity>
+
+        <dates>
+            <startDate>2026-08-21</startDate>
+            <endDate>2026-08-23</endDate>
+            <timezone>Europe/Prague</timezone>
+        </dates>
+
+        <audience>
+            <primary>Nadšenci do IT, kteří se chtějí zdokonalit v širším spektru oboru</primary>
+            <secondary>Zájemci o oblast IT, kteří chtějí získat přehled o aktuálních trendech a možnostech kariérního rozvoje</secondary>
+            <tertiary>Rodiny IT specialistů</tertiary>
+            <language>cs</language>
+        </audience>
+
+        <formats>
+            <format key="lecture">Odborné přednášky</format>
+            <format key="workshop">Praktické workshopy</format>
+            <format key="panel">Panelové diskuze</format>
+            <format key="networking">Networking</format>
+            <format key="concert">Koncert</format>
+            <format key="dj-set">DJ set</format>
+        </formats>
+
+        <mission>
+            Cílem festivalu je bourat stereotypy o IT komunitě a vytvářet prostor pro otevřený networking,
+            sdílení zkušeností a profesní růst.
+        </mission>
+
+        <tickets>
+            <startingFrom currency="CZK">400</startingFrom>
+            <url>https://example.org/codeconnect/tickets</url>
+            <standard currency="CZK">600</standard>
+            <url>https://example.org/codeconnect/tickets</url>
+            <vip currency="CZK">990</vip>
+            <url>https://example.org/codeconnect/tickets</url>
+        </tickets>
+
+        <links>
+            <website>https://example.org/codeconnect</website>
+            <instagram>https://instagram.com/codeconnect</instagram>
+            <linkedin>https://linkedin.com/company/codeconnect</linkedin>
+        </links>
+
+        <contact>
+            <email>info@example.org</email>
+            <phone>+420123456789</phone>
+        </contact>
+    </festival>
+
+    <venues>
+        <venue id="VEN-001">
+            <name>Main Stage</name>
+            <type>stage</type>
+            <description>Keynote přednášky a hlavní přednáškové bloky.</description>
+            <address>
+                <street>Vodácká</street>
+                <city>Praha</city>
+                <postalCode>171 00</postalCode>
+                <country>CZ</country>
+            </address>
+            <capacity>600</capacity>
+            <accessibility>true</accessibility>
+        </venue>
+
+        <venue id="VEN-002">
+            <name>Workshop Lab</name>
+            <type>lab</type>
+            <description>Hands-on workshopy (DevOps, cloud, etický hacking).</description>
+            <address>
+                <street>Vodácká</street>
+                <city>Praha</city>
+                <postalCode>171 00</postalCode>
+                <country>CZ</country>
+            </address>
+            <capacity>120</capacity>
+            <accessibility>true</accessibility>
+        </venue>
+
+        <venue id="VEN-003">
+            <name>Panel Hall</name>
+            <type>hall</type>
+            <description>Panelové diskuze a debaty s hosty.</description>
+            <address>
+                <street>Vodácká</street>
+                <city>Praha</city>
+                <postalCode>171 00</postalCode>
+                <country>CZ</country>
+            </address>
+            <capacity>250</capacity>
+            <accessibility>true</accessibility>
+        </venue>
+
+        <venue id="VEN-004">
+            <name>Networking Lounge</name>
+            <type>lounge</type>
+            <description>Networking zóny, partner booths, 1:1 meetups.</description>
+            <address>
+                <street>Vodácká</street>
+                <city>Praha</city>
+                <postalCode>171 00</postalCode>
+                <country>CZ</country>
+            </address>
+            <capacity>300</capacity>
+            <accessibility>true</accessibility>
+        </venue>
+    </venues>
+
+    <performers>
+        <performer id="PER-001">
+            <name>Jan Novák</name>
+            <country>CZ</country>
+            <tags>
+                <tag>AI</tag>
+                <tag>engineering</tag>
+            </tags>
+            <bio>Vývojář zaměřený na aplikace strojového učení v praxi.</bio>
+            <links>
+                <website>https://example.org/jan-novak</website>
+                <linkedin>https://linkedin.com/in/jannovak</linkedin>
+            </links>
+        </performer>
+
+        <performer id="PER-002">
+            <name>Team RedWire</name>
+            <country>CZ</country>
+            <tags>
+                <tag>cybersecurity</tag>
+                <tag>workshop</tag>
+            </tags>
+            <bio>Lektoři workshopů etického hackingu a bezpečnostních auditů.</bio>
+        </performer>
+
+        <performer id="PER-003">
+            <name>Elena Rostova</name>
+            <country>UA</country>
+            <tags>
+                <tag>data science</tag>
+                <tag>big data</tag>
+            </tags>
+            <bio>Datová analytička a expertka na big data infrastrukturu.</bio>
+        </performer>
+
+        <performer id="PER-004">
+            <name>Marcus Wright</name>
+            <country>US</country>
+            <tags>
+                <tag>cloud</tag>
+                <tag>architecture</tag>
+            </tags>
+            <bio>Senior Cloud Architekt s vášní pro serverless řešení.</bio>
+            <links>
+                <linkedin>https://linkedin.com/in/mwright-cloud</linkedin>
+            </links>
+        </performer>
+
+        <performer id="PER-005">
+            <name>Hiroshi Tanaka</name>
+            <country>JP</country>
+            <tags>
+                <tag>IoT</tag>
+                <tag>hardware</tag>
+            </tags>
+            <bio>Průkopník v oblasti Internetu věcí a smart cities.</bio>
+        </performer>
+
+        <performer id="PER-006">
+            <name>Klára Dvořáková</name>
+            <country>CZ</country>
+            <tags>
+                <tag>UX/UI</tag>
+                <tag>accessibility</tag>
+            </tags>
+            <bio>Designérka se zaměřením na přístupnost webových aplikací pro všechny.</bio>
+        </performer>
+
+        <performer id="PER-007">
+            <name>Ahmed Al-Farsi</name>
+            <country>AE</country>
+            <tags>
+                <tag>fintech</tag>
+                <tag>blockchain</tag>
+            </tags>
+            <bio>Specialista na decentralizované finance a bezpečnost chytrých kontraktů.</bio>
+        </performer>
+
+        <performer id="PER-008">
+            <name>Sophie Martin</name>
+            <country>FR</country>
+            <tags>
+                <tag>DevOps</tag>
+                <tag>CI/CD</tag>
+            </tags>
+            <bio>Evangelistka pro automatizaci a kulturu DevOps v korporátním prostředí.</bio>
+        </performer>
+
+        <performer id="PER-009">
+            <name>Tomáš Krejčí</name>
+            <country>CZ</country>
+            <tags>
+                <tag>backend</tag>
+                <tag>java</tag>
+            </tags>
+            <bio>Veterán vývoje v Javě, autor populárních open-source knihoven.</bio>
+            <links>
+                <website>https://example.org/tkrejci</website>
+            </links>
+        </performer>
+
+        <performer id="PER-010">
+            <name>Li Wei</name>
+            <country>CN</country>
+            <tags>
+                <tag>mobile</tag>
+                <tag>flutter</tag>
+            </tags>
+            <bio>Expert na multiplatformní mobilní vývoj a výkonnostní optimalizace.</bio>
+        </performer>
+
+        <performer id="PER-011">
+            <name>Maria Silva</name>
+            <country>BR</country>
+            <tags>
+                <tag>agile</tag>
+                <tag>scrum</tag>
+            </tags>
+            <bio>Agile koučka, která pomáhá transformovat vývojové týmy k lepší efektivitě.</bio>
+        </performer>
+
+        <performer id="PER-012">
+            <name>John Doe</name>
+            <country>UK</country>
+            <tags>
+                <tag>open-source</tag>
+                <tag>community</tag>
+            </tags>
+            <bio>Maintainer několika velkých open-source projektů pro Node.js.</bio>
+        </performer>
+
+        <performer id="PER-013">
+            <name>Anna Kowalska</name>
+            <country>PL</country>
+            <tags>
+                <tag>QA</tag>
+                <tag>automation</tag>
+            </tags>
+            <bio>Lead QA Engineer se zaměřením na automatizované end-to-end testy.</bio>
+        </performer>
+
+        <performer id="PER-014">
+            <name>David Černý</name>
+            <country>CZ</country>
+            <tags>
+                <tag>gamedev</tag>
+                <tag>unity</tag>
+            </tags>
+            <bio>Indie vývojář a tvůrce úspěšných mobilních her.</bio>
+        </performer>
+
+        <performer id="PER-015">
+            <name>Chen Lu</name>
+            <country>SG</country>
+            <tags>
+                <tag>AI</tag>
+                <tag>nlp</tag>
+            </tags>
+            <bio>Výzkumnice v oblasti zpracování přirozeného jazyka a LLM modelů.</bio>
+        </performer>
+
+        <performer id="PER-016">
+            <name>Fatou Diop</name>
+            <country>SN</country>
+            <tags>
+                <tag>web3</tag>
+                <tag>engineering</tag>
+            </tags>
+            <bio>Architektka decentralizovaných aplikací a Web3 evangelistka.</bio>
+        </performer>
+
+        <performer id="PER-017">
+            <name>Hans Müller</name>
+            <country>DE</country>
+            <tags>
+                <tag>SRE</tag>
+                <tag>kubernetes</tag>
+            </tags>
+            <bio>Site Reliability Engineer v globální e-commerce platformě.</bio>
+        </performer>
+
+        <performer id="PER-018">
+            <name>Lars Jensen</name>
+            <country>DK</country>
+            <tags>
+                <tag>frontend</tag>
+                <tag>react</tag>
+            </tags>
+            <bio>Frontend specialista tvořící komplexní webové aplikace s Reactem.</bio>
+        </performer>
+
+        <performer id="PER-019">
+            <name>Chloe Smith</name>
+            <country>CA</country>
+            <tags>
+                <tag>product management</tag>
+                <tag>strategy</tag>
+            </tags>
+            <bio>Produktová manažerka s bohatými zkušenostmi ze startupového prostředí.</bio>
+        </performer>
+
+        <performer id="PER-020">
+            <name>Pavel Novotný</name>
+            <country>SK</country>
+            <tags>
+                <tag>cybersecurity</tag>
+                <tag>redteaming</tag>
+            </tags>
+            <bio>Bývalý vládní konzultant, nyní vedoucí komerčního Red Teamu.</bio>
+        </performer>
+
+        <performer id="PER-021">
+            <name>Julia Rossi</name>
+            <country>IT</country>
+            <tags>
+                <tag>robotics</tag>
+                <tag>automation</tag>
+            </tags>
+            <bio>Softwarová inženýrka vyvíjející navigační algoritmy pro drony.</bio>
+        </performer>
+
+        <performer id="PER-022">
+            <name>Omar Hassan</name>
+            <country>EG</country>
+            <tags>
+                <tag>data engineering</tag>
+                <tag>etl</tag>
+            </tags>
+            <bio>Konzultant specializující se na real-time datové pipeliny.</bio>
+        </performer>
+
+        <performer id="PER-023">
+            <name>Petra Křížová</name>
+            <country>CZ</country>
+            <tags>
+                <tag>leadership</tag>
+                <tag>hr</tag>
+            </tags>
+            <bio>Mentorka a lektorka, která pomáhá technikům vyrůst do manažerských rolí.</bio>
+        </performer>
+
+        <performer id="PER-024">
+            <name>Kevin O'Brien</name>
+            <country>IE</country>
+            <tags>
+                <tag>rust</tag>
+                <tag>systems</tag>
+            </tags>
+            <bio>Propagátor jazyka Rust a vývojář kritických systémových komponent.</bio>
+        </performer>
+
+        <performer id="PER-025">
+            <name>Sofia Garcia</name>
+            <country>ES</country>
+            <tags>
+                <tag>cloud</tag>
+                <tag>aws</tag>
+            </tags>
+            <bio>AWS Hero a zakladatelka několika úspěšných cloud-native startupů.</bio>
+        </performer>
+
+        <performer id="PER-026">
+            <name>Wei Chen</name>
+            <country>TW</country>
+            <tags>
+                <tag>hardware</tag>
+                <tag>microcontrollers</tag>
+            </tags>
+            <bio>Návrhář integrovaných obvodů a lektor low-level programování.</bio>
+        </performer>
+
+        <performer id="PER-027">
+            <name>Martin Zeman</name>
+            <country>CZ</country>
+            <tags>
+                <tag>python</tag>
+                <tag>django</tag>
+            </tags>
+            <bio>Hlavní vývojář známého českého fintechového portálu.</bio>
+        </performer>
+
+        <performer id="PER-028">
+            <name>Priya Patel</name>
+            <country>IN</country>
+            <tags>
+                <tag>UI</tag>
+                <tag>design systems</tag>
+            </tags>
+            <bio>Tvůrkyně rozsáhlých design systémů pro nadnárodní korporace.</bio>
+        </performer>
+
+        <performer id="PER-029">
+            <name>Alexey Ivanov</name>
+            <country>EE</country>
+            <tags>
+                <tag>devsecops</tag>
+                <tag>security</tag>
+            </tags>
+            <bio>Expert na integraci bezpečnostních nástrojů přímo do CI/CD pipeline.</bio>
+        </performer>
+
+        <performer id="PER-030">
+            <name>Nina Vargová</name>
+            <country>SK</country>
+            <tags>
+                <tag>VR</tag>
+                <tag>AR</tag>
+            </tags>
+            <bio>Vývojářka smíšené reality pro vzdělávací a lékařské aplikace.</bio>
+        </performer>
+
+        <performer id="PER-031">
+            <name>James Wilson</name>
+            <country>US</country>
+            <tags>
+                <tag>sysadmin</tag>
+                <tag>linux</tag>
+            </tags>
+            <bio>Linux guru s více než 20 lety zkušeností se správou serverů.</bio>
+        </performer>
+
+        <performer id="PER-032">
+            <name>Amara Okafor</name>
+            <country>NG</country>
+            <tags>
+                <tag>machine learning</tag>
+                <tag>ethics</tag>
+            </tags>
+            <bio>Zabývá se etikou umělé inteligence a odstraňováním biasu v algoritmech.</bio>
+        </performer>
+
+        <performer id="PER-033">
+            <name>Lucas Bauer</name>
+            <country>AT</country>
+            <tags>
+                <tag>cryptography</tag>
+                <tag>math</tag>
+            </tags>
+            <bio>Matematik a kryptograf podílející se na návrhu post-kvantových šifer.</bio>
+        </performer>
+
+        <performer id="PER-034">
+            <name>Emma Andersson</name>
+            <country>SE</country>
+            <tags>
+                <tag>green IT</tag>
+                <tag>sustainability</tag>
+            </tags>
+            <bio>Konzultantka udržitelnosti v IT – jak snížit uhlíkovou stopu datacenter.</bio>
+        </performer>
+
+        <performer id="PER-035">
+            <name>Tomáš Růžička</name>
+            <country>CZ</country>
+            <tags>
+                <tag>e-commerce</tag>
+                <tag>performance</tag>
+            </tags>
+            <bio>Specialista na výkon a optimalizaci velkých e-shopů.</bio>
+        </performer>
+
+        <performer id="PER-036">
+            <name>Yuki Saito</name>
+            <country>JP</country>
+            <tags>
+                <tag>quantum computing</tag>
+                <tag>research</tag>
+            </tags>
+            <bio>Výzkumník pracující na experimentálních kvantových algoritmech.</bio>
+        </performer>
+
+        <performer id="PER-037">
+            <name>Olivia Taylor</name>
+            <country>NZ</country>
+            <tags>
+                <tag>networking</tag>
+                <tag>cisco</tag>
+            </tags>
+            <bio>Síťová inženýrka specializující se na architekturu páteřních sítí.</bio>
+        </performer>
+
+        <performer id="PER-038">
+            <name>Mateo Fernandez</name>
+            <country>AR</country>
+            <tags>
+                <tag>flutter</tag>
+                <tag>dart</tag>
+            </tags>
+            <bio>Google Developer Expert pro technologie Flutter a Dart.</bio>
+        </performer>
+
+        <performer id="PER-039">
+            <name>Katarzyna Nowak</name>
+            <country>PL</country>
+            <tags>
+                <tag>big data</tag>
+                <tag>spark</tag>
+            </tags>
+            <bio>Data inženýrka optimalizující distribuované výpočty s Apache Spark.</bio>
+        </performer>
+
+        <performer id="PER-040">
+            <name>Viktor Horváth</name>
+            <country>HU</country>
+            <tags>
+                <tag>game design</tag>
+                <tag>storytelling</tag>
+            </tags>
+            <bio>Game designer a scenárista se zaměřením na interaktivní narativ.</bio>
+        </performer>
+
+        <performer id="PER-041">
+            <name>Sarah Connor</name>
+            <country>US</country>
+            <tags>
+                <tag>AI safety</tag>
+                <tag>policy</tag>
+            </tags>
+            <bio>Pracuje na globálních regulacích a bezpečnosti autonomních AI agentů.</bio>
+        </performer>
+
+        <performer id="PER-042">
+            <name>Jan Kováč</name>
+            <country>SK</country>
+            <tags>
+                <tag>kernel</tag>
+                <tag>linux</tag>
+            </tags>
+            <bio>Aktivní přispěvatel do jádra operačního systému Linux.</bio>
+        </performer>
+
+        <performer id="PER-043">
+            <name>Wei Zhang</name>
+            <country>CN</country>
+            <tags>
+                <tag>microservices</tag>
+                <tag>golang</tag>
+            </tags>
+            <bio>Softwarový architekt propojující mikroslužby v obřích zátěžových scénářích.</bio>
+        </performer>
+
+        <performer id="PER-044">
+            <name>Mia Haddad</name>
+            <country>LB</country>
+            <tags>
+                <tag>edtech</tag>
+                <tag>e-learning</tag>
+            </tags>
+            <bio>Zakladatelka startupu, který pomocí AI personalizuje vzdělávání dětí.</bio>
+        </performer>
+
+        <performer id="PER-045">
+            <name>Boris Jelenev</name>
+            <country>BG</country>
+            <tags>
+                <tag>golang</tag>
+                <tag>backend</tag>
+            </tags>
+            <bio>Backend developer a organizátor regionálních Go konferencí.</bio>
+        </performer>
+
+        <performer id="PER-046">
+            <name>Clara Dupont</name>
+            <country>FR</country>
+            <tags>
+                <tag>UX research</tag>
+                <tag>psychology</tag>
+            </tags>
+            <bio>Propojuje psychologii s designem v hlubokých uživatelských výzkumech.</bio>
+        </performer>
+
+        <performer id="PER-047">
+            <name>Jakub Svoboda</name>
+            <country>CZ</country>
+            <tags>
+                <tag>web performance</tag>
+                <tag>SEO</tag>
+            </tags>
+            <bio>Technický SEO specialista a mistr Core Web Vitals.</bio>
+        </performer>
+
+        <performer id="PER-048">
+            <name>Diego Costa</name>
+            <country>PT</country>
+            <tags>
+                <tag>android</tag>
+                <tag>kotlin</tag>
+            </tags>
+            <bio>Android vývojář propagující čistou architekturu v Kotlinu.</bio>
+        </performer>
+
+        <performer id="PER-049">
+            <name>Ananya Sharma</name>
+            <country>IN</country>
+            <tags>
+                <tag>iOS</tag>
+                <tag>swift</tag>
+            </tags>
+            <bio>iOS lead developer se zaměřením na responzivní a modulární UI.</bio>
+        </performer>
+
+        <performer id="PER-050">
+            <name>Mark Evans</name>
+            <country>AU</country>
+            <tags>
+                <tag>databases</tag>
+                <tag>postgresql</tag>
+            </tags>
+            <bio>Databázový administrátor řešící extrémně komplexní migrace dat.</bio>
+        </performer>
+
+        <performer id="PER-051">
+            <name>Laura Becker</name>
+            <country>CH</country>
+            <tags>
+                <tag>software architecture</tag>
+                <tag>patterns</tag>
+            </tags>
+            <bio>Autorka odborných publikací o moderních návrhových vzorech.</bio>
+        </performer>
+
+        <performer id="PER-052">
+            <name>Kenji Nomura</name>
+            <country>JP</country>
+            <tags>
+                <tag>embedded</tag>
+                <tag>c++</tag>
+            </tags>
+            <bio>Vývojář embedded systémů pro automobilový průmysl.</bio>
+        </performer>
+
+        <performer id="PER-053">
+            <name>Alice Fisher</name>
+            <country>UK</country>
+            <tags>
+                <tag>accessibility</tag>
+                <tag>advocacy</tag>
+            </tags>
+            <bio>Bojovnice za přístupnější web podle standardů WCAG.</bio>
+        </performer>
+
+        <performer id="PER-054">
+            <name>Roman Štefánik</name>
+            <country>SK</country>
+            <tags>
+                <tag>c++</tag>
+                <tag>gamedev</tag>
+            </tags>
+            <bio>Programátor fyzikálních enginů pro AAA herní tituly.</bio>
+        </performer>
+
+        <performer id="PER-055">
+            <name>Isabella Martinez</name>
+            <country>MX</country>
+            <tags>
+                <tag>cloud native</tag>
+                <tag>observability</tag>
+            </tags>
+            <bio>Specialistka na monitoring, tracing a logování (OpenTelemetry).</bio>
+        </performer>
+
+        <performer id="PER-056">
+            <name>Ali Reza</name>
+            <country>IR</country>
+            <tags>
+                <tag>computer vision</tag>
+                <tag>deep learning</tag>
+            </tags>
+            <bio>Vytváří systémy počítačového vidění pro medicínské zobrazování.</bio>
+        </performer>
+
+        <performer id="PER-057">
+            <name>Tereza Veselá</name>
+            <country>CZ</country>
+            <tags>
+                <tag>IT law</tag>
+                <tag>privacy</tag>
+            </tags>
+            <bio>Právnička zaměřená na ochranu osobních údajů, GDPR a autorské právo v IT.</bio>
+        </performer>
+
+        <performer id="PER-058">
+            <name>Simon Peters</name>
+            <country>NL</country>
+            <tags>
+                <tag>serverless</tag>
+                <tag>azure</tag>
+            </tags>
+            <bio>Architekt v ekosystému Microsoft Azure zaměřený na serverless funkce.</bio>
+        </performer>
+
+        <performer id="PER-059">
+            <name>Eva Holubová</name>
+            <country>CZ</country>
+            <tags>
+                <tag>mentoring</tag>
+                <tag>women in tech</tag>
+            </tags>
+            <bio>Organizátorka komunitních meetupů a iniciativy podporující ženy v IT.</bio>
+            <links>
+                <linkedin>https://linkedin.com/in/eva-holubova-tech</linkedin>
+            </links>
+        </performer>
+
+        <performer id="PER-060">
+            <name>David Kim</name>
+            <country>KR</country>
+            <tags>
+                <tag>esports tech</tag>
+                <tag>streaming</tag>
+            </tags>
+            <bio>Technický ředitel platformy pro real-time přenosy esportových turnajů.</bio>
+        </performer>
+    </performers>
+
+    <events>
+        <event id="EVT-001" venueId="VEN-001" category="lecture">
+            <title>Keynote: AI trendy 2026</title>
+            <start>2026-08-21T10:00:00+02:00</start>
+            <end>2026-08-21T10:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-001" role="speaker"/>
+            </performers>
+            <description>Co se reálně změnilo v AI za poslední rok a kam míří praxe.</description>
+        </event>
+
+        <event id="EVT-002" venueId="VEN-002" category="workshop">
+            <title>Workshop: Úvod do etického hackingu</title>
+            <start>2026-08-21T11:15:00+02:00</start>
+            <end>2026-08-21T13:15:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-002" role="mentor"/>
+            </performers>
+            <description>Základy bezpečnostního testování pro začátečníky.</description>
+            <registrationRequired>true</registrationRequired>
+        </event>
+
+        <event id="EVT-003" venueId="VEN-001" category="lecture">
+            <title>Budoucnost Big Data infrastruktury</title>
+            <start>2026-08-21T11:00:00+02:00</start>
+            <end>2026-08-21T11:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-003" role="speaker"/>
+            </performers>
+            <description>Jak stavět škálovatelné datové sklady pro nadcházející dekádu.</description>
+        </event>
+
+        <event id="EVT-004" venueId="VEN-001" category="lecture">
+            <title>Serverless: Mýty a fakta</title>
+            <start>2026-08-21T12:00:00+02:00</start>
+            <end>2026-08-21T12:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-004" role="speaker"/>
+            </performers>
+            <description>Kdy se vyplatí jít cestou serverless a kdy vás to naopak zničí.</description>
+        </event>
+
+        <event id="EVT-005" venueId="VEN-003" category="panel">
+            <title>Panel: IoT v moderních městech</title>
+            <start>2026-08-21T13:00:00+02:00</start>
+            <end>2026-08-21T14:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-005" role="panelist"/>
+                <performerRef performerId="PER-007" role="panelist"/>
+            </performers>
+            <description>Diskuze o bezpečnosti a propojitelnosti v rámci smart cities.</description>
+        </event>
+
+        <event id="EVT-006" venueId="VEN-002" category="workshop">
+            <title>Web Accessibility Masterclass</title>
+            <start>2026-08-21T14:00:00+02:00</start>
+            <end>2026-08-21T16:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-006" role="mentor"/>
+            </performers>
+            <description>Praktický workshop o implementaci přístupnosti WCAG 2.2 do vašich projektů.</description>
+            <registrationRequired>true</registrationRequired>
+        </event>
+
+        <event id="EVT-007" venueId="VEN-001" category="lecture">
+            <title>Blockchain za hranicí kryptoměn</title>
+            <start>2026-08-21T14:30:00+02:00</start>
+            <end>2026-08-21T15:15:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-007" role="speaker"/>
+            </performers>
+            <description>Reálná využití smart kontraktů ve finančním sektoru.</description>
+        </event>
+
+        <event id="EVT-008" venueId="VEN-004" category="networking">
+            <title>DevOps Meet &amp; Greet</title>
+            <start>2026-08-21T15:30:00+02:00</start>
+            <end>2026-08-21T17:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-008" role="host"/>
+                <performerRef performerId="PER-017" role="host"/>
+            </performers>
+            <description>Neformální networking pro všechny, kteří automatizují infrastrukturu.</description>
+        </event>
+
+        <event id="EVT-009" venueId="VEN-001" category="lecture">
+            <title>Moderní Java v roce 2026</title>
+            <start>2026-08-21T15:45:00+02:00</start>
+            <end>2026-08-21T16:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-009" role="speaker"/>
+            </performers>
+            <description>Přehled novinek, Project Loom v praxi a výkonnostní tipy.</description>
+        </event>
+
+        <event id="EVT-010" venueId="VEN-002" category="workshop">
+            <title>Flutter pro pokročilé</title>
+            <start>2026-08-21T16:30:00+02:00</start>
+            <end>2026-08-21T18:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-010" role="mentor"/>
+                <performerRef performerId="PER-038" role="mentor"/>
+            </performers>
+            <description>Tvorba vlastních animací a optimalizace rendering tree.</description>
+            <registrationRequired>true</registrationRequired>
+        </event>
+
+        <event id="EVT-011" venueId="VEN-003" category="lecture">
+            <title>Jak opravit rozbitý Agile</title>
+            <start>2026-08-21T17:00:00+02:00</start>
+            <end>2026-08-21T17:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-011" role="speaker"/>
+            </performers>
+            <description>Zkušenosti z transformací korporací směrem ke skutečné agilitě.</description>
+        </event>
+
+        <event id="EVT-012" venueId="VEN-004" category="networking">
+            <title>Open Source Kontributoři 1:1</title>
+            <start>2026-08-21T17:30:00+02:00</start>
+            <end>2026-08-21T19:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-012" role="host"/>
+                <performerRef performerId="PER-042" role="host"/>
+            </performers>
+            <description>Přijďte se zeptat maintainerů, jak udělat svůj první PR.</description>
+        </event>
+
+        <event id="EVT-013" venueId="VEN-001" category="lecture">
+            <title>Konec manuálního testování?</title>
+            <start>2026-08-21T18:00:00+02:00</start>
+            <end>2026-08-21T18:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-013" role="speaker"/>
+            </performers>
+            <description>AI agenti a jejich role v automatizovaném QA.</description>
+        </event>
+
+        <event id="EVT-014" venueId="VEN-003" category="lecture">
+            <title>Vývoj indie her a marketing</title>
+            <start>2026-08-21T18:30:00+02:00</start>
+            <end>2026-08-21T19:15:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-014" role="speaker"/>
+            </performers>
+            <description>Cesta od prototypu k milionům stažení.</description>
+        </event>
+
+        <event id="EVT-015" venueId="VEN-001" category="panel">
+            <title>Panel: Etika a limity LLM modelů</title>
+            <start>2026-08-21T19:30:00+02:00</start>
+            <end>2026-08-21T20:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-015" role="panelist"/>
+                <performerRef performerId="PER-032" role="panelist"/>
+                <performerRef performerId="PER-041" role="panelist"/>
+            </performers>
+            <description>Kde končí technologie a začíná společenská odpovědnost?</description>
+        </event>
+
+        <event id="EVT-016" venueId="VEN-002" category="workshop">
+            <title>Úvod do Web3 a dApps</title>
+            <start>2026-08-21T19:00:00+02:00</start>
+            <end>2026-08-21T21:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-016" role="mentor"/>
+            </performers>
+            <description>Napište a nasaďte svůj první chytrý kontrakt do testnetu.</description>
+            <registrationRequired>true</registrationRequired>
+        </event>
+
+        <event id="EVT-017" venueId="VEN-003" category="lecture">
+            <title>Kubernetes v enterprise sféře</title>
+            <start>2026-08-21T20:00:00+02:00</start>
+            <end>2026-08-21T20:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-017" role="speaker"/>
+            </performers>
+            <description>Lessons learned ze správy 10 000+ kontejnerů.</description>
+        </event>
+
+        <event id="EVT-018" venueId="VEN-004" category="networking">
+            <title>Welcome Party &amp; Networking</title>
+            <start>2026-08-21T21:00:00+02:00</start>
+            <end>2026-08-21T23:59:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-059" role="host"/>
+            </performers>
+            <description>Zahajovací párty festivalu s DJs a drinky.</description>
+        </event>
+
+        <event id="EVT-019" venueId="VEN-001" category="dj-set">
+            <title>Midnight Coding Beats</title>
+            <start>2026-08-21T22:00:00+02:00</start>
+            <end>2026-08-22T01:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-060" role="dj"/>
+            </performers>
+            <description>David Kim vymění klávesnici za mixážní pult.</description>
+        </event>
+
+        <event id="EVT-020" venueId="VEN-003" category="networking">
+            <title>Night Owls Hack-Talks</title>
+            <start>2026-08-21T23:00:00+02:00</start>
+            <end>2026-08-22T01:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-020" role="host"/>
+            </performers>
+            <description>Debaty o bezpečnosti, red teamingu a hackerských historkách.</description>
+        </event>
+
+        <event id="EVT-021" venueId="VEN-001" category="lecture">
+            <title>Ráno s Reactem: Server Components</title>
+            <start>2026-08-22T09:30:00+02:00</start>
+            <end>2026-08-22T10:15:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-018" role="speaker"/>
+            </performers>
+            <description>Detailní pohled pod pokličku nového React paradigmatu.</description>
+        </event>
+
+        <event id="EVT-022" venueId="VEN-003" category="lecture">
+            <title>Product Management pro techniky</title>
+            <start>2026-08-22T10:00:00+02:00</start>
+            <end>2026-08-22T10:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-019" role="speaker"/>
+            </performers>
+            <description>Jak myslet víc produktově a méně jen jako kodér.</description>
+        </event>
+
+        <event id="EVT-023" venueId="VEN-001" category="lecture">
+            <title>Red Teaming v roce 2026</title>
+            <start>2026-08-22T10:45:00+02:00</start>
+            <end>2026-08-22T11:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-020" role="speaker"/>
+            </performers>
+            <description>Jak útočníci využívají AI k sociálnímu inženýrství.</description>
+        </event>
+
+        <event id="EVT-024" venueId="VEN-002" category="workshop">
+            <title>Programování dronů a navigace</title>
+            <start>2026-08-22T10:30:00+02:00</start>
+            <end>2026-08-22T12:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-021" role="mentor"/>
+            </performers>
+            <description>Praktická ukázka vývoje algoritmů pro autonomní let.</description>
+            <registrationRequired>true</registrationRequired>
+        </event>
+
+        <event id="EVT-025" venueId="VEN-003" category="lecture">
+            <title>Real-time data pipeliny</title>
+            <start>2026-08-22T11:30:00+02:00</start>
+            <end>2026-08-22T12:15:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-022" role="speaker"/>
+            </performers>
+            <description>Jak zpracovat miliony událostí za sekundu bez zpoždění.</description>
+        </event>
+
+        <event id="EVT-026" venueId="VEN-004" category="networking">
+            <title>Women in Tech Coffee Break</title>
+            <start>2026-08-22T11:00:00+02:00</start>
+            <end>2026-08-22T12:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-059" role="host"/>
+                <performerRef performerId="PER-023" role="host"/>
+            </performers>
+            <description>Ranní káva a diskuze o leadershipu a podpoře diverzity.</description>
+        </event>
+
+        <event id="EVT-027" venueId="VEN-001" category="lecture">
+            <title>Proč všichni přepisují do Rustu?</title>
+            <start>2026-08-22T12:00:00+02:00</start>
+            <end>2026-08-22T12:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-024" role="speaker"/>
+            </performers>
+            <description>Výhody a úskalí přechodu na Rust v produkčním prostředí.</description>
+        </event>
+
+        <event id="EVT-028" venueId="VEN-001" category="panel">
+            <title>Panel: Budoucnost cloudu a AWS</title>
+            <start>2026-08-22T13:30:00+02:00</start>
+            <end>2026-08-22T14:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-025" role="panelist"/>
+                <performerRef performerId="PER-004" role="panelist"/>
+            </performers>
+            <description>Lock-in vs. agilita. Kam směřují přední cloudoví poskytovatelé.</description>
+        </event>
+
+        <event id="EVT-029" venueId="VEN-002" category="workshop">
+            <title>Low-level programování a mikročipy</title>
+            <start>2026-08-22T13:30:00+02:00</start>
+            <end>2026-08-22T15:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-026" role="mentor"/>
+            </performers>
+            <description>Ovládněte základy C a práce s registry na reálném hardwaru.</description>
+            <registrationRequired>true</registrationRequired>
+        </event>
+
+        <event id="EVT-030" venueId="VEN-003" category="lecture">
+            <title>Django pod velkou zátěží</title>
+            <start>2026-08-22T14:00:00+02:00</start>
+            <end>2026-08-22T14:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-027" role="speaker"/>
+            </performers>
+            <description>Optimalizace Python aplikací pro stovky tisíc uživatelů.</description>
+        </event>
+
+        <event id="EVT-031" venueId="VEN-003" category="lecture">
+            <title>Design Systémy z praxe</title>
+            <start>2026-08-22T15:00:00+02:00</start>
+            <end>2026-08-22T15:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-028" role="speaker"/>
+            </performers>
+            <description>Jak udržet konzistenci UI napříč 50+ produkty velké firmy.</description>
+        </event>
+
+        <event id="EVT-032" venueId="VEN-001" category="lecture">
+            <title>DevSecOps: Bezpečnost by design</title>
+            <start>2026-08-22T15:00:00+02:00</start>
+            <end>2026-08-22T15:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-029" role="speaker"/>
+            </performers>
+            <description>Shift-left přístup k bezpečnosti ve vašich CI/CD pipelinách.</description>
+        </event>
+
+        <event id="EVT-033" venueId="VEN-002" category="workshop">
+            <title>Vývoj pro VR/AR</title>
+            <start>2026-08-22T16:00:00+02:00</start>
+            <end>2026-08-22T18:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-030" role="mentor"/>
+            </performers>
+            <description>Základy práce s prostorovým audiem a interakcemi ve VR.</description>
+            <registrationRequired>true</registrationRequired>
+        </event>
+
+        <event id="EVT-034" venueId="VEN-004" category="networking">
+            <title>Sysadmin &amp; SRE Beer O'Clock</title>
+            <start>2026-08-22T16:00:00+02:00</start>
+            <end>2026-08-22T17:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-031" role="host"/>
+            </performers>
+            <description>Networking pro ty, co udržují servery v chodu.</description>
+        </event>
+
+        <event id="EVT-035" venueId="VEN-001" category="lecture">
+            <title>Etika v Machine Learningu</title>
+            <start>2026-08-22T16:15:00+02:00</start>
+            <end>2026-08-22T17:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-032" role="speaker"/>
+            </performers>
+            <description>Identifikace a odstraňování biasu v trénovacích datech.</description>
+        </event>
+
+        <event id="EVT-036" venueId="VEN-003" category="lecture">
+            <title>Kryptografie v post-kvantové éře</title>
+            <start>2026-08-22T17:15:00+02:00</start>
+            <end>2026-08-22T18:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-033" role="speaker"/>
+                <performerRef performerId="PER-036" role="speaker"/>
+            </performers>
+            <description>Jsou naše současná data v bezpečí před budoucími kvantovými počítači?</description>
+        </event>
+
+        <event id="EVT-037" venueId="VEN-001" category="lecture">
+            <title>Green IT: Ekologická zodpovědnost</title>
+            <start>2026-08-22T17:30:00+02:00</start>
+            <end>2026-08-22T18:15:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-034" role="speaker"/>
+            </performers>
+            <description>Jak optimalizovat kód a infrastrukturu pro snížení emisí CO2.</description>
+        </event>
+
+        <event id="EVT-038" venueId="VEN-002" category="workshop">
+            <title>Performance Tuning E-shopů</title>
+            <start>2026-08-22T18:30:00+02:00</start>
+            <end>2026-08-22T20:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-035" role="mentor"/>
+                <performerRef performerId="PER-047" role="mentor"/>
+            </performers>
+            <description>Kombinovaný workshop na backend cache a frontend Core Web Vitals.</description>
+            <registrationRequired>true</registrationRequired>
+        </event>
+
+        <event id="EVT-039" venueId="VEN-003" category="panel">
+            <title>Páteřní sítě a 6G</title>
+            <start>2026-08-22T18:45:00+02:00</start>
+            <end>2026-08-22T19:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-037" role="panelist"/>
+            </performers>
+            <description>Panelová diskuze o budoucnosti vysokorychlostního připojení.</description>
+        </event>
+
+        <event id="EVT-040" venueId="VEN-004" category="concert">
+            <title>Sobotní koncert: Synthwave &amp; Code</title>
+            <start>2026-08-22T21:00:00+02:00</start>
+            <end>2026-08-22T23:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-014" role="musician"/>
+            </performers>
+            <description>Živá elektronická hudba a audiovizuální show.</description>
+        </event>
+
+        <event id="EVT-041" venueId="VEN-001" category="lecture">
+            <title>Základy Apache Spark a Big Data</title>
+            <start>2026-08-23T10:00:00+02:00</start>
+            <end>2026-08-23T10:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-039" role="speaker"/>
+            </performers>
+            <description>Jak zpracovat terabyty dat v distribuovaném prostředí.</description>
+        </event>
+
+        <event id="EVT-042" venueId="VEN-003" category="lecture">
+            <title>Storytelling v herním vývoji</title>
+            <start>2026-08-23T10:15:00+02:00</start>
+            <end>2026-08-23T11:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-040" role="speaker"/>
+            </performers>
+            <description>Narrative design a tvorba poutavého příběhu pro hráče.</description>
+        </event>
+
+        <event id="EVT-043" venueId="VEN-002" category="workshop">
+            <title>Kompilace Linuxového jádra</title>
+            <start>2026-08-23T10:30:00+02:00</start>
+            <end>2026-08-23T12:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-042" role="mentor"/>
+            </performers>
+            <description>Hands-on workshop, kde si odnesete vlastní zkompilovaný kernel.</description>
+            <registrationRequired>true</registrationRequired>
+        </event>
+
+        <event id="EVT-044" venueId="VEN-001" category="lecture">
+            <title>Architektura Go mikroslužeb</title>
+            <start>2026-08-23T11:15:00+02:00</start>
+            <end>2026-08-23T12:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-043" role="speaker"/>
+                <performerRef performerId="PER-045" role="speaker"/>
+            </performers>
+            <description>Proč je Golang ideální jazyk pro tvorbu spolehlivých mikroslužeb.</description>
+        </event>
+
+        <event id="EVT-045" venueId="VEN-004" category="networking">
+            <title>EdTech Founders Brunch</title>
+            <start>2026-08-23T11:30:00+02:00</start>
+            <end>2026-08-23T13:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-044" role="host"/>
+            </performers>
+            <description>Setkání startupistů a vývojářů ze vzdělávacího sektoru.</description>
+        </event>
+
+        <event id="EVT-046" venueId="VEN-003" category="lecture">
+            <title>Psychologie v UX výzkumu</title>
+            <start>2026-08-23T12:15:00+02:00</start>
+            <end>2026-08-23T13:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-046" role="speaker"/>
+            </performers>
+            <description>Jak pochopit skutečné chování uživatelů a nenaletět vlastním domněnkám.</description>
+        </event>
+
+        <event id="EVT-047" venueId="VEN-001" category="panel">
+            <title>Panel: Mobilní vývoj v roce 2026</title>
+            <start>2026-08-23T13:30:00+02:00</start>
+            <end>2026-08-23T14:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-048" role="panelist"/>
+                <performerRef performerId="PER-049" role="panelist"/>
+                <performerRef performerId="PER-010" role="panelist"/>
+            </performers>
+            <description>Nativní vs. Multiplatformní vývoj: Souboj iOS, Android a Flutteru.</description>
+        </event>
+
+        <event id="EVT-048" venueId="VEN-002" category="workshop">
+            <title>Pokročilý PostgreSQL</title>
+            <start>2026-08-23T13:30:00+02:00</start>
+            <end>2026-08-23T15:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-050" role="mentor"/>
+            </performers>
+            <description>Optimalizace složitých dotazů, indexování a řešení locků.</description>
+            <registrationRequired>true</registrationRequired>
+        </event>
+
+        <event id="EVT-049" venueId="VEN-003" category="lecture">
+            <title>Softwarová architektura: Návrhové vzory</title>
+            <start>2026-08-23T14:45:00+02:00</start>
+            <end>2026-08-23T15:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-051" role="speaker"/>
+            </performers>
+            <description>Mají tradiční GoF vzory ještě smysl v moderních frameworcích?</description>
+        </event>
+
+        <event id="EVT-050" venueId="VEN-001" category="lecture">
+            <title>Automotive IT: Embedded C++</title>
+            <start>2026-08-23T15:00:00+02:00</start>
+            <end>2026-08-23T15:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-052" role="speaker"/>
+            </performers>
+            <description>Výzvy při programování řídících jednotek moderních automobilů.</description>
+        </event>
+
+        <event id="EVT-051" venueId="VEN-004" category="networking">
+            <title>Accessibility Advocacy Meetup</title>
+            <start>2026-08-23T15:00:00+02:00</start>
+            <end>2026-08-23T16:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-053" role="host"/>
+            </performers>
+            <description>Jak prosadit téma přístupnosti u vedení firmy a klientů.</description>
+        </event>
+
+        <event id="EVT-052" venueId="VEN-003" category="lecture">
+            <title>Fyzikální enginy v AAA hrách</title>
+            <start>2026-08-23T16:00:00+02:00</start>
+            <end>2026-08-23T16:45:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-054" role="speaker"/>
+            </performers>
+            <description>Matematika a optimalizace za plynulými simulacemi částic a destrukce.</description>
+        </event>
+
+        <event id="EVT-053" venueId="VEN-001" category="lecture">
+            <title>Cloud Native Observability</title>
+            <start>2026-08-23T16:15:00+02:00</start>
+            <end>2026-08-23T17:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-055" role="speaker"/>
+            </performers>
+            <description>Jak konečně vidět do své rozsáhlé mikroservisní architektury pomocí OpenTelemetry.</description>
+        </event>
+
+        <event id="EVT-054" venueId="VEN-002" category="workshop">
+            <title>Computer Vision &amp; Deep Learning</title>
+            <start>2026-08-23T16:00:00+02:00</start>
+            <end>2026-08-23T18:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-056" role="mentor"/>
+            </performers>
+            <description>Rozpoznávání obrazu: Od trénování modelu po inferenci.</description>
+            <registrationRequired>true</registrationRequired>
+        </event>
+
+        <event id="EVT-055" venueId="VEN-003" category="lecture">
+            <title>Právo v IT, GDPR a AI Act</title>
+            <start>2026-08-23T17:15:00+02:00</start>
+            <end>2026-08-23T18:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-057" role="speaker"/>
+            </performers>
+            <description>Co musíte z pohledu práva splnit při nasazování AI do svých produktů.</description>
+        </event>
+
+        <event id="EVT-056" venueId="VEN-001" category="lecture">
+            <title>Serverless na platformě Azure</title>
+            <start>2026-08-23T17:30:00+02:00</start>
+            <end>2026-08-23T18:15:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-058" role="speaker"/>
+            </performers>
+            <description>Best practices pro stavbu škálovatelných řešení v Microsoft cloudu.</description>
+        </event>
+
+        <event id="EVT-057" venueId="VEN-004" category="networking">
+            <title>Esports &amp; Streaming Tech Talk</title>
+            <start>2026-08-23T17:00:00+02:00</start>
+            <end>2026-08-23T18:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-060" role="host"/>
+            </performers>
+            <description>Debata o technologickém zázemí masivních online turnajů.</description>
+        </event>
+
+        <event id="EVT-058" venueId="VEN-002" category="workshop">
+            <title>Mentoring a rozvoj juniorů</title>
+            <start>2026-08-23T18:30:00+02:00</start>
+            <end>2026-08-23T19:30:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-023" role="mentor"/>
+            </performers>
+            <description>Workshop pro seniory: Jak efektivně předávat své know-how dál.</description>
+        </event>
+
+        <event id="EVT-059" venueId="VEN-003" category="panel">
+            <title>Závěrečný panel: Budoucnost IT profesí</title>
+            <start>2026-08-23T19:00:00+02:00</start>
+            <end>2026-08-23T20:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-001" role="panelist"/>
+                <performerRef performerId="PER-059" role="panelist"/>
+                <performerRef performerId="PER-019" role="panelist"/>
+            </performers>
+            <description>Nahradí nás umělá inteligence, nebo jsme teprve na začátku zlaté éry?</description>
+        </event>
+
+        <event id="EVT-060" venueId="VEN-001" category="lecture">
+            <title>Closing Keynote &amp; Rozloučení</title>
+            <start>2026-08-23T20:15:00+02:00</start>
+            <end>2026-08-23T21:00:00+02:00</end>
+            <performers>
+                <performerRef performerId="PER-008" role="speaker"/>
+            </performers>
+            <description>Shrnutí festivalu CodeConnect 2026 a oznámení termínů pro příští rok.</description>
+        </event>
+    </events>
+</festivalData>
