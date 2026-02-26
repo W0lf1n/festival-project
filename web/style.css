@@ -1,0 +1,72 @@
+body{
+    background-color: #211A1D;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+#navbar{
+    border: 2px solid #F8F0FB;
+    border-radius: 5px;
+    background-color: #6320ee;
+    padding: 7px;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+.nav-button{
+    padding: 5px;
+    text-align: center;
+}
+.nav-link{
+    font-weight: 700;
+    text-decoration: underline;
+}
+footer{
+    background-color: #6320ee;
+    padding: 7px;
+    border: 2px solid #F8F0FB;
+    border-radius: 5px;
+}
+main{
+    padding: 15px;
+    margin: 20px 150px;
+    background-color: #8075FF;
+}
+section, article, .performer{
+    padding: 20px;
+}
+article{
+    padding: 20px;
+}
+p, h1, h2, h3, time, a{
+   color: #F8F0FB;
+   margin: 0;
+}
+h1, h2, h3{
+    text-decoration: underline;
+}
+a.active{
+    color: #00ffff;
+    font-weight: 900;
+}
+article.performer-item{
+    padding: 7px;
+    background-color: #6320ee;
+    border: 2px solid #F8F0FB;
+    border-radius: 5px;
+}
+#performers{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 0;
+}
+.performer{
+    column-gap: 15px;
+}
