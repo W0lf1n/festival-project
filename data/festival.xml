@@ -1,4 +1,7 @@
-<festivalData>
+
+<festivalData
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="validation.xsd">
     <festival id="FEST-2026">
         <identity>
             <name>CodeConnect 2026 - IT networking festival</name>
@@ -40,9 +43,7 @@
 
         <tickets>
             <startingFrom currency="CZK">400</startingFrom>
-            <url>https://example.org/codeconnect/tickets</url>
             <standard currency="CZK">600</standard>
-            <url>https://example.org/codeconnect/tickets</url>
             <vip currency="CZK">990</vip>
             <url>https://example.org/codeconnect/tickets</url>
         </tickets>

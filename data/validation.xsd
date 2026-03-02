@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="festivalData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="festival" type="FestivalType"/>
+                <xs:element name="venues" type="VenuesType"/>
+                <xs:element name="performers" type="PerformersType"/>
+                <xs:element name="events" type="EventsType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="FestivalType">
+        <xs:sequence>
+            <xs:element name="identity">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="name" type="xs:string"/>
+                        <xs:element name="edition" type="xs:string"/>
+                        <xs:element name="location">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="city" type="xs:string"/>
+                                    <xs:element name="district" type="xs:string"/>
+                                    <xs:element name="venueName" type="xs:string"/>
+                                    <xs:element name="country" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="dates">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="startDate" type="xs:date"/>
+                        <xs:element name="endDate" type="xs:date"/>
+                        <xs:element name="timezone" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="audience">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="primary" type="xs:string"/>
+                        <xs:element name="secondary" type="xs:string"/>
+                        <xs:element name="tertiary" type="xs:string"/>
+                        <xs:element name="language" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="formats">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="format" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:string">
+                                        <xs:attribute name="key" type="xs:string" use="required"/>
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="mission" type="xs:string"/>
+
+            <xs:element name="tickets">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="startingFrom" type="PriceType"/>
+                        <xs:element name="standard" type="PriceType"/>
+                        <xs:element name="vip" type="PriceType"/>
+                        <xs:element name="url" type="xs:anyURI" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="links">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="website" type="xs:anyURI"/>
+                        <xs:element name="instagram" type="xs:anyURI"/>
+                        <xs:element name="linkedin" type="xs:anyURI"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="contact">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="email" type="xs:string"/>
+                        <xs:element name="phone" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="PriceType">
+        <xs:simpleContent>
+            <xs:extension base="xs:integer">
+                <xs:attribute name="currency" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="VenuesType">
+        <xs:sequence>
+            <xs:element name="venue" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="name" type="xs:string"/>
+                        <xs:element name="type" type="xs:string"/>
+                        <xs:element name="description" type="xs:string"/>
+                        <xs:element name="address">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="street" type="xs:string"/>
+                                    <xs:element name="city" type="xs:string"/>
+                                    <xs:element name="postalCode" type="xs:string"/>
+                                    <xs:element name="country" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="capacity" type="xs:integer"/>
+                        <xs:element name="accessibility" type="xs:boolean"/>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="PerformersType">
+        <xs:sequence>
+            <xs:element name="performer" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="name" type="xs:string"/>
+                        <xs:element name="country" type="xs:string"/>
+                        <xs:element name="tags">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="tag" type="xs:string" maxOccurs="unbounded"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="bio" type="xs:string"/>
+                        <xs:element name="links" minOccurs="0">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="website" type="xs:anyURI" minOccurs="0"/>
+                                    <xs:element name="linkedin" type="xs:anyURI" minOccurs="0"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="EventsType">
+        <xs:sequence>
+            <xs:element name="event" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="title" type="xs:string"/>
+                        <xs:element name="start" type="xs:dateTime"/>
+                        <xs:element name="end" type="xs:dateTime"/>
+                        <xs:element name="performers">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="performerRef" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                            <xs:attribute name="performerId" type="xs:string" use="required"/>
+                                            <xs:attribute name="role" type="xs:string" use="required"/>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="description" type="xs:string"/>
+                        <xs:element name="registrationRequired" type="xs:boolean" minOccurs="0"/>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:string" use="required"/>
+                    <xs:attribute name="venueId" type="xs:string" use="required"/>
+                    <xs:attribute name="category" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
