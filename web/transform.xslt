@@ -6,13 +6,14 @@
     <xsl:template match="/">
         <xsl:apply-templates select="festivalData/events"/>
         <xsl:apply-templates select="festivalData/performers"/>
+        <xsl:apply-templates select="festivalData/venues"/>
     </xsl:template>
     <xsl:template match="festivalData/events">
         <main>
             <h1>Program</h1>
             <section id="events">
                 <xsl:for-each select="event">
-                    <div class="performer-item column">
+                    <article class="section-item column">
                         <h2><xsl:value-of select="title" /></h2>
                         <xsl:variable name="dtstart" as="xs:dateTime" select="xs:dateTime(start)" />
                         <xsl:variable name="dtend" as="xs:dateTime" select="xs:dateTime(end)" />
@@ -42,7 +43,7 @@
                         <xsl:if test="registrationRequired='true'">
                             <p>Potřeba registrace!</p>
                         </xsl:if>
-                    </div>
+                    </article>
                 </xsl:for-each>
             </section>
         </main>
@@ -52,7 +53,7 @@
             <h1>Účinkující</h1>
             <section id="performers">
                 <xsl:for-each select="performer">
-                    <article class="performer-item" id="{@id}">
+                    <article class="section-item" id="{@id}">
                         <a href="performers/performer-{lower-case(substring-after(@id, 'PER-'))}.html">
                             <h2><xsl:value-of select="name"/></h2>
                         </a>
@@ -103,28 +104,29 @@
             </section>
         </main>
     </xsl:template> 
+    <xsl:template match="festivalData/venues">
+        <section class="venues">
+            <h3>Místa konání</h3>
+            <xsl:for-each select="venue">
+                <div class="venue section-item" id="{@id}">
+                    <a href="venues/venue-{lower-case(substring-after(@id, 'VEN-'))}.html">
+                        <h4><xsl:value-of select="name"/></h4>
+                    </a>
+                    <p class="type">Typ: <xsl:value-of select="type"/></p>
+                    <p class="description">Popis: <xsl:value-of select="description"/></p>
+                    <div class="address">
+                        <p>Adresa:</p>
+                        <p><xsl:value-of select="address/street"/></p>
+                        <p><xsl:value-of select="address/city"/></p>
+                        <p><xsl:value-of select="address/postalCode"/></p>
+                        <p>Česká Republika</p>
+                    </div>
+                    <p class="capacity">Kapacita: <xsl:value-of select="capacity"/></p>
+                    <xsl:if test="accessibility">
+                        <p>Přístupnost: ano</p>
+                    </xsl:if>
+                </div>
+            </xsl:for-each>
+        </section>
+    </xsl:template>
 </xsl:stylesheet> 
-
-
-<!-- <event id="EVT-001" venueId="VEN-001" category="lecture">
-     <title>Keynote: AI trendy 2026</title>
-     <start>2026-08-21T10:00:00+02:00</start>
-     <end>2026-08-21T10:45:00+02:00</end>
-     <performers>
-     <performerRef performerId="PER-001" role="speaker"/>
-     </performers>
-     <description>Co se reálně změnilo v AI za poslední rok a kam míří praxe.</description>
-     </event> -->
-<!-- <performer id="PER-001">
-     <name>Jan Novák</name>
-     <country>CZ</country>
-     <tags>
-     <tag>AI</tag>
-     <tag>engineering</tag>
-     </tags>
-     <bio>Vývojář zaměřený na aplikace strojového učení v praxi.</bio>
-     <links>
-     <website>https://example.org/jan-novak</website>
-     <linkedin>https://linkedin.com/in/jannovak</linkedin>
-     </links>
-     </performer> -->
