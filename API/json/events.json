@@ -1,0 +1,485 @@
+
+        [
+        
+            {
+            "id": "EVT-001",
+            "title": "Keynote: AI trendy 2026",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-21T10:00:00+02:00",
+            "end": "2026-08-21T10:45:00+02:00"
+            },
+            {
+            "id": "EVT-002",
+            "title": "Workshop: Úvod do etického hackingu",
+            "category": "workshop",
+            "venueId": "VEN-002",
+            "start": "2026-08-21T11:15:00+02:00",
+            "end": "2026-08-21T13:15:00+02:00"
+            },
+            {
+            "id": "EVT-003",
+            "title": "Budoucnost Big Data infrastruktury",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-21T11:00:00+02:00",
+            "end": "2026-08-21T11:45:00+02:00"
+            },
+            {
+            "id": "EVT-004",
+            "title": "Serverless: Mýty a fakta",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-21T12:00:00+02:00",
+            "end": "2026-08-21T12:45:00+02:00"
+            },
+            {
+            "id": "EVT-005",
+            "title": "Panel: IoT v moderních městech",
+            "category": "panel",
+            "venueId": "VEN-003",
+            "start": "2026-08-21T13:00:00+02:00",
+            "end": "2026-08-21T14:00:00+02:00"
+            },
+            {
+            "id": "EVT-006",
+            "title": "Web Accessibility Masterclass",
+            "category": "workshop",
+            "venueId": "VEN-002",
+            "start": "2026-08-21T14:00:00+02:00",
+            "end": "2026-08-21T16:00:00+02:00"
+            },
+            {
+            "id": "EVT-007",
+            "title": "Blockchain za hranicí kryptoměn",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-21T14:30:00+02:00",
+            "end": "2026-08-21T15:15:00+02:00"
+            },
+            {
+            "id": "EVT-008",
+            "title": "DevOps Meet & Greet",
+            "category": "networking",
+            "venueId": "VEN-004",
+            "start": "2026-08-21T15:30:00+02:00",
+            "end": "2026-08-21T17:00:00+02:00"
+            },
+            {
+            "id": "EVT-009",
+            "title": "Moderní Java v roce 2026",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-21T15:45:00+02:00",
+            "end": "2026-08-21T16:30:00+02:00"
+            },
+            {
+            "id": "EVT-010",
+            "title": "Flutter pro pokročilé",
+            "category": "workshop",
+            "venueId": "VEN-002",
+            "start": "2026-08-21T16:30:00+02:00",
+            "end": "2026-08-21T18:30:00+02:00"
+            },
+            {
+            "id": "EVT-011",
+            "title": "Jak opravit rozbitý Agile",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-21T17:00:00+02:00",
+            "end": "2026-08-21T17:45:00+02:00"
+            },
+            {
+            "id": "EVT-012",
+            "title": "Open Source Kontributoři 1:1",
+            "category": "networking",
+            "venueId": "VEN-004",
+            "start": "2026-08-21T17:30:00+02:00",
+            "end": "2026-08-21T19:00:00+02:00"
+            },
+            {
+            "id": "EVT-013",
+            "title": "Konec manuálního testování?",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-21T18:00:00+02:00",
+            "end": "2026-08-21T18:45:00+02:00"
+            },
+            {
+            "id": "EVT-014",
+            "title": "Vývoj indie her a marketing",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-21T18:30:00+02:00",
+            "end": "2026-08-21T19:15:00+02:00"
+            },
+            {
+            "id": "EVT-015",
+            "title": "Panel: Etika a limity LLM modelů",
+            "category": "panel",
+            "venueId": "VEN-001",
+            "start": "2026-08-21T19:30:00+02:00",
+            "end": "2026-08-21T20:30:00+02:00"
+            },
+            {
+            "id": "EVT-016",
+            "title": "Úvod do Web3 a dApps",
+            "category": "workshop",
+            "venueId": "VEN-002",
+            "start": "2026-08-21T19:00:00+02:00",
+            "end": "2026-08-21T21:00:00+02:00"
+            },
+            {
+            "id": "EVT-017",
+            "title": "Kubernetes v enterprise sféře",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-21T20:00:00+02:00",
+            "end": "2026-08-21T20:45:00+02:00"
+            },
+            {
+            "id": "EVT-018",
+            "title": "Welcome Party & Networking",
+            "category": "networking",
+            "venueId": "VEN-004",
+            "start": "2026-08-21T21:00:00+02:00",
+            "end": "2026-08-21T23:59:00+02:00"
+            },
+            {
+            "id": "EVT-019",
+            "title": "Midnight Coding Beats",
+            "category": "dj-set",
+            "venueId": "VEN-001",
+            "start": "2026-08-21T22:00:00+02:00",
+            "end": "2026-08-22T01:00:00+02:00"
+            },
+            {
+            "id": "EVT-020",
+            "title": "Night Owls Hack-Talks",
+            "category": "networking",
+            "venueId": "VEN-003",
+            "start": "2026-08-21T23:00:00+02:00",
+            "end": "2026-08-22T01:00:00+02:00"
+            },
+            {
+            "id": "EVT-021",
+            "title": "Ráno s Reactem: Server Components",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-22T09:30:00+02:00",
+            "end": "2026-08-22T10:15:00+02:00"
+            },
+            {
+            "id": "EVT-022",
+            "title": "Product Management pro techniky",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-22T10:00:00+02:00",
+            "end": "2026-08-22T10:45:00+02:00"
+            },
+            {
+            "id": "EVT-023",
+            "title": "Red Teaming v roce 2026",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-22T10:45:00+02:00",
+            "end": "2026-08-22T11:30:00+02:00"
+            },
+            {
+            "id": "EVT-024",
+            "title": "Programování dronů a navigace",
+            "category": "workshop",
+            "venueId": "VEN-002",
+            "start": "2026-08-22T10:30:00+02:00",
+            "end": "2026-08-22T12:30:00+02:00"
+            },
+            {
+            "id": "EVT-025",
+            "title": "Real-time data pipeliny",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-22T11:30:00+02:00",
+            "end": "2026-08-22T12:15:00+02:00"
+            },
+            {
+            "id": "EVT-026",
+            "title": "Women in Tech Coffee Break",
+            "category": "networking",
+            "venueId": "VEN-004",
+            "start": "2026-08-22T11:00:00+02:00",
+            "end": "2026-08-22T12:00:00+02:00"
+            },
+            {
+            "id": "EVT-027",
+            "title": "Proč všichni přepisují do Rustu?",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-22T12:00:00+02:00",
+            "end": "2026-08-22T12:45:00+02:00"
+            },
+            {
+            "id": "EVT-028",
+            "title": "Panel: Budoucnost cloudu a AWS",
+            "category": "panel",
+            "venueId": "VEN-001",
+            "start": "2026-08-22T13:30:00+02:00",
+            "end": "2026-08-22T14:30:00+02:00"
+            },
+            {
+            "id": "EVT-029",
+            "title": "Low-level programování a mikročipy",
+            "category": "workshop",
+            "venueId": "VEN-002",
+            "start": "2026-08-22T13:30:00+02:00",
+            "end": "2026-08-22T15:30:00+02:00"
+            },
+            {
+            "id": "EVT-030",
+            "title": "Django pod velkou zátěží",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-22T14:00:00+02:00",
+            "end": "2026-08-22T14:45:00+02:00"
+            },
+            {
+            "id": "EVT-031",
+            "title": "Design Systémy z praxe",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-22T15:00:00+02:00",
+            "end": "2026-08-22T15:45:00+02:00"
+            },
+            {
+            "id": "EVT-032",
+            "title": "DevSecOps: Bezpečnost by design",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-22T15:00:00+02:00",
+            "end": "2026-08-22T15:45:00+02:00"
+            },
+            {
+            "id": "EVT-033",
+            "title": "Vývoj pro VR/AR",
+            "category": "workshop",
+            "venueId": "VEN-002",
+            "start": "2026-08-22T16:00:00+02:00",
+            "end": "2026-08-22T18:00:00+02:00"
+            },
+            {
+            "id": "EVT-034",
+            "title": "Sysadmin & SRE Beer O'Clock",
+            "category": "networking",
+            "venueId": "VEN-004",
+            "start": "2026-08-22T16:00:00+02:00",
+            "end": "2026-08-22T17:30:00+02:00"
+            },
+            {
+            "id": "EVT-035",
+            "title": "Etika v Machine Learningu",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-22T16:15:00+02:00",
+            "end": "2026-08-22T17:00:00+02:00"
+            },
+            {
+            "id": "EVT-036",
+            "title": "Kryptografie v post-kvantové éře",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-22T17:15:00+02:00",
+            "end": "2026-08-22T18:00:00+02:00"
+            },
+            {
+            "id": "EVT-037",
+            "title": "Green IT: Ekologická zodpovědnost",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-22T17:30:00+02:00",
+            "end": "2026-08-22T18:15:00+02:00"
+            },
+            {
+            "id": "EVT-038",
+            "title": "Performance Tuning E-shopů",
+            "category": "workshop",
+            "venueId": "VEN-002",
+            "start": "2026-08-22T18:30:00+02:00",
+            "end": "2026-08-22T20:30:00+02:00"
+            },
+            {
+            "id": "EVT-039",
+            "title": "Páteřní sítě a 6G",
+            "category": "panel",
+            "venueId": "VEN-003",
+            "start": "2026-08-22T18:45:00+02:00",
+            "end": "2026-08-22T19:45:00+02:00"
+            },
+            {
+            "id": "EVT-040",
+            "title": "Sobotní koncert: Synthwave & Code",
+            "category": "concert",
+            "venueId": "VEN-004",
+            "start": "2026-08-22T21:00:00+02:00",
+            "end": "2026-08-22T23:30:00+02:00"
+            },
+            {
+            "id": "EVT-041",
+            "title": "Základy Apache Spark a Big Data",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-23T10:00:00+02:00",
+            "end": "2026-08-23T10:45:00+02:00"
+            },
+            {
+            "id": "EVT-042",
+            "title": "Storytelling v herním vývoji",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-23T10:15:00+02:00",
+            "end": "2026-08-23T11:00:00+02:00"
+            },
+            {
+            "id": "EVT-043",
+            "title": "Kompilace Linuxového jádra",
+            "category": "workshop",
+            "venueId": "VEN-002",
+            "start": "2026-08-23T10:30:00+02:00",
+            "end": "2026-08-23T12:30:00+02:00"
+            },
+            {
+            "id": "EVT-044",
+            "title": "Architektura Go mikroslužeb",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-23T11:15:00+02:00",
+            "end": "2026-08-23T12:00:00+02:00"
+            },
+            {
+            "id": "EVT-045",
+            "title": "EdTech Founders Brunch",
+            "category": "networking",
+            "venueId": "VEN-004",
+            "start": "2026-08-23T11:30:00+02:00",
+            "end": "2026-08-23T13:00:00+02:00"
+            },
+            {
+            "id": "EVT-046",
+            "title": "Psychologie v UX výzkumu",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-23T12:15:00+02:00",
+            "end": "2026-08-23T13:00:00+02:00"
+            },
+            {
+            "id": "EVT-047",
+            "title": "Panel: Mobilní vývoj v roce 2026",
+            "category": "panel",
+            "venueId": "VEN-001",
+            "start": "2026-08-23T13:30:00+02:00",
+            "end": "2026-08-23T14:30:00+02:00"
+            },
+            {
+            "id": "EVT-048",
+            "title": "Pokročilý PostgreSQL",
+            "category": "workshop",
+            "venueId": "VEN-002",
+            "start": "2026-08-23T13:30:00+02:00",
+            "end": "2026-08-23T15:30:00+02:00"
+            },
+            {
+            "id": "EVT-049",
+            "title": "Softwarová architektura: Návrhové vzory",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-23T14:45:00+02:00",
+            "end": "2026-08-23T15:30:00+02:00"
+            },
+            {
+            "id": "EVT-050",
+            "title": "Automotive IT: Embedded C++",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-23T15:00:00+02:00",
+            "end": "2026-08-23T15:45:00+02:00"
+            },
+            {
+            "id": "EVT-051",
+            "title": "Accessibility Advocacy Meetup",
+            "category": "networking",
+            "venueId": "VEN-004",
+            "start": "2026-08-23T15:00:00+02:00",
+            "end": "2026-08-23T16:00:00+02:00"
+            },
+            {
+            "id": "EVT-052",
+            "title": "Fyzikální enginy v AAA hrách",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-23T16:00:00+02:00",
+            "end": "2026-08-23T16:45:00+02:00"
+            },
+            {
+            "id": "EVT-053",
+            "title": "Cloud Native Observability",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-23T16:15:00+02:00",
+            "end": "2026-08-23T17:00:00+02:00"
+            },
+            {
+            "id": "EVT-054",
+            "title": "Computer Vision & Deep Learning",
+            "category": "workshop",
+            "venueId": "VEN-002",
+            "start": "2026-08-23T16:00:00+02:00",
+            "end": "2026-08-23T18:00:00+02:00"
+            },
+            {
+            "id": "EVT-055",
+            "title": "Právo v IT, GDPR a AI Act",
+            "category": "lecture",
+            "venueId": "VEN-003",
+            "start": "2026-08-23T17:15:00+02:00",
+            "end": "2026-08-23T18:00:00+02:00"
+            },
+            {
+            "id": "EVT-056",
+            "title": "Serverless na platformě Azure",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-23T17:30:00+02:00",
+            "end": "2026-08-23T18:15:00+02:00"
+            },
+            {
+            "id": "EVT-057",
+            "title": "Esports & Streaming Tech Talk",
+            "category": "networking",
+            "venueId": "VEN-004",
+            "start": "2026-08-23T17:00:00+02:00",
+            "end": "2026-08-23T18:30:00+02:00"
+            },
+            {
+            "id": "EVT-058",
+            "title": "Mentoring a rozvoj juniorů",
+            "category": "workshop",
+            "venueId": "VEN-002",
+            "start": "2026-08-23T18:30:00+02:00",
+            "end": "2026-08-23T19:30:00+02:00"
+            },
+            {
+            "id": "EVT-059",
+            "title": "Závěrečný panel: Budoucnost IT profesí",
+            "category": "panel",
+            "venueId": "VEN-003",
+            "start": "2026-08-23T19:00:00+02:00",
+            "end": "2026-08-23T20:00:00+02:00"
+            },
+            {
+            "id": "EVT-060",
+            "title": "Closing Keynote & Rozloučení",
+            "category": "lecture",
+            "venueId": "VEN-001",
+            "start": "2026-08-23T20:15:00+02:00",
+            "end": "2026-08-23T21:00:00+02:00"
+            }
+        ]
+    
