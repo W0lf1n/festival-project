@@ -1,0 +1,29 @@
+
+        [
+        
+            {
+            "id": "VEN-001",
+            "name": "Main Stage",
+            "type": "stage",
+            "capacity": 600
+            },
+            {
+            "id": "VEN-002",
+            "name": "Workshop Lab",
+            "type": "lab",
+            "capacity": 120
+            },
+            {
+            "id": "VEN-003",
+            "name": "Panel Hall",
+            "type": "hall",
+            "capacity": 250
+            },
+            {
+            "id": "VEN-004",
+            "name": "Networking Lounge",
+            "type": "lounge",
+            "capacity": 300
+            }
+        ]
+    

@@ -1,0 +1,159 @@
+openapi: 3.1.0
+info:
+  title: CodeConnect 2026 API
+  version: 1.0.0
+  description: REST API pro IT networking festival CodeConnect.
+servers:
+  - url: https://api.codeconnect.cz/v1
+paths:
+  /api/festival:
+    get:
+      summary: Získá základní informace o festivalu
+      responses:
+        '200':
+          description: Úspěšné získání dat
+          content:
+            application/json:
+              schema:
+                $ref: './json-schema/festival.schema.json'
+  /api/venues:
+    get:
+      summary: Získá seznam všech míst (venues)
+      responses:
+        '200':
+          description: Seznam venues
+          content:
+            application/json:
+              schema:
+                $ref: './json-schema/venues.schema.json'
+  /api/venues/{id}:
+    get:
+      summary: Detail konkrétního místa
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Detail místa
+          content:
+            application/json:
+              schema:
+                $ref: './json-schema/venue.detail.schema.json'
+        '404':
+          description: Místo nenalezeno
+  /api/performers:
+    get:
+      summary: Seznam účinkujících
+      parameters:
+        - name: page
+          in: query
+          description: Číslo stránky pro stránkování
+          schema:
+            type: integer
+            default: 1
+        - name: pageSize
+          in: query
+          description: Počet položek na stránku
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Seznam účinkujících
+          content:
+            application/json:
+              schema:
+                $ref: './json-schema/performers.schema.json'
+        '400':
+          description: Neplatné parametry stránkování
+  /api/performers/{id}:
+    get:
+      summary: Detail účinkujícího
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Detail účinkujícího
+          content:
+            application/json:
+              schema:
+                $ref: './json-schema/performer.detail.schema.json'
+        '404':
+          description: Účinkující nenalezen
+  /api/events:
+    get:
+      summary: Seznam programových položek
+      parameters:
+        - name: day
+          in: query
+          description: Filtr podle dne (YYYY-MM-DD)
+          schema:
+            type: string
+            format: date
+        - name: venueId
+          in: query
+          description: Filtr podle ID místa
+          schema:
+            type: string
+        - name: performerId
+          in: query
+          description: Filtr podle ID účinkujícího
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Seznam událostí
+          content:
+            application/json:
+              schema:
+                $ref: './json-schema/events.schema.json'
+        '400':
+          description: Chybný formát filtru
+  /api/events/{id}:
+    get:
+      summary: Detail programové položky
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Detail akce
+          content:
+            application/json:
+              schema:
+                $ref: './json-schema/event.detail.schema.json'
+        '404':
+          description: Akce nenalezena
+
+components:
+  schemas:
+    Festival:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        edition:
+          type: string
+    Venue:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        type:
+          type: string
+        capacity:
+          type: integer

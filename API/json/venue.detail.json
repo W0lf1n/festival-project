@@ -1,0 +1,13 @@
+
+        {
+        "id": "VEN-001",
+        "name": "Main Stage",
+        "type": "stage",
+        "capacity": 600,
+        "description": "Keynote přednášky a hlavní přednáškové bloky.",
+        "address": {
+        "street": "Vodácká",
+        "city": "Praha"
+        }
+        }
+    
